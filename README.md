@@ -4,8 +4,8 @@ This is a OmniAuth strategy for authenticating to Podio.
 
 ## Basic Usage
 
-    use OmniAuth::Builder do
-      provider :podio, ENV['PODIO_KEY'], ENV['PODIO_SECRET']
+    Rails.application.config.middleware.use OmniAuth::Builder do
+      provider :podio, ENV['CLIENT_ID'], ENV['CLIENT_SECRET']
     end
 
 ## License
