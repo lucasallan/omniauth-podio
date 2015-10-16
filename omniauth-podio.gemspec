@@ -3,8 +3,8 @@ $:.push File.expand_path("../lib", __FILE__)
 require "omniauth-podio/version"
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Lucas Allan"]
-  gem.email         = ["lucas.allan@gmail.com"]
+  gem.authors       = ["Lucas Allan", "Joel Van Horn"]
+  gem.email         = ["lucas.allan@gmail.com", "joel@joelvanhorn.com"]
   gem.description   = %q{OmniAuth strategy for Podio.}
   gem.summary       = %q{OmniAuth strategy for Podio.}
   gem.homepage      = "https://github.com/lucasallan/omniauth-podio"
